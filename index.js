@@ -63,7 +63,7 @@ function setupServer(db) {
     })
   })
 
-  let server = app.listen(8080, () => {
+  let server = app.listen(9000, () => {
     console.log("Server ready", server.address().port)
   })
 }
